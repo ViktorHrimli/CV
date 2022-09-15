@@ -7,6 +7,15 @@
     display: flex;
     margin-left: auto;
     grid-gap: 15px;
+
+    & p {
+        display: inline-block;
+        height: 30px;
+    }
+
+    & p:hover {
+        cursor: pointer;
+    }
 }
 
 .conteiner__title {
@@ -44,7 +53,11 @@
     padding: 20px;
 }
 
+
+
 .btn__works {
+    transition: font-weight 250ms, box-shadow 250ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover {
         font-weight: 400;
         border: 1px solid;
@@ -54,6 +67,8 @@
 }
 
 .btn__contact {
+    transition: font-weight 250ms, box-shadow 250ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover {
         font-weight: 400;
         border: 1px solid;
