@@ -8,11 +8,11 @@ function onClickWorks() {
 
 function onClickContact() {
   refs.footer.classList.remove('dis');
-  scrolTo('footer', 10);
+  scrolTo('footer', 30);
 }
 function onClickParagraph() {
   refs.footer.classList.remove('dis');
-  scrolTo('footer', 15);
+  scrolTo('footer', 2);
 }
 
 function onClickFooter() {
@@ -22,6 +22,6 @@ function onClickFooter() {
 // listener
 refs.parPortf.addEventListener('click', onClickWorks);
 refs.btnWorks.addEventListener('click', onClickWorks);
-refs.paragrCont.addEventListener('click', onClickContact);
-refs.btnContacts.addEventListener('click', onClickParagraph);
+refs.paragrCont.addEventListener('click', onClickParagraph);
+refs.btnContacts.addEventListener('click', onClickContact);
 refs.btnFoot.addEventListener('click', onClickFooter);
