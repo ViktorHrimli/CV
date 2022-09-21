@@ -25,17 +25,9 @@
     padding: 40px;
 }
 
-.conteiner__img {
-
-    & img {
-        height: 100%;
-    }
-}
-
 .conteiner__meAll {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
     margin-bottom: auto;
     grid-row-gap: 10px;
 }
