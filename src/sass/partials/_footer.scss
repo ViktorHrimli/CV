@@ -35,6 +35,8 @@ footer {
 
 .icon--item {
     display: inline-flex;
+    width: 30px;
+    height: 30px;
     transition: scale 250ms;
 
     :hover {
