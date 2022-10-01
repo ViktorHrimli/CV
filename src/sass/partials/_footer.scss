@@ -35,15 +35,22 @@ footer {
 
 .icon--item {
     display: inline-flex;
-    width: 30px;
-    height: 30px;
     transition: scale 250ms;
 
     :hover {
         scale: 1.03;
         cursor: pointer;
-        fill: black;
     }
+}
+
+.icon-git {
+    width: 30px;
+    height: 30px;
+
+}
+
+.icon-In {
+    margin-bottom: 3px;
 }
 
 .link--icon {
@@ -58,7 +65,5 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    width: 20px;
-    height: 20px;
     fill: #fff;
 }
